@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pet-clinic-eureka-server:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_commands: true
+        format_sql: true
