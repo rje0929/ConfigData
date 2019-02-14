@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://pet-clinic-eureka-server:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     fetch-registry: true
     register-with-eureka: true
 spring:
